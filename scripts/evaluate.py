@@ -33,7 +33,7 @@ def main() -> int:
     settings = Settings.from_env()
     questions = json.loads(args.questions.read_text(encoding="utf-8"))
 
-    with tempfile.TemporaryDirectory() as tmp:  # isolated store: never touches your real index
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as tmp:  # isolated store: never touches your real index
         store = PolicyVectorStore(tmp, "eval")
         index_directory(store, settings.sample_dir, settings)
 
