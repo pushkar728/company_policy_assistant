@@ -1,0 +1,19 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local vector database (rebuilt automatically)
+chroma_db/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

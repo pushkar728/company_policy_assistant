@@ -1,0 +1,18 @@
+[
+  {"question": "How many days of annual leave do I get per year?", "expected_source": "Leave_Policy.pdf", "expected_keyword": "18 days"},
+  {"question": "Do I need a medical certificate for sick leave?", "expected_source": "Leave_Policy.pdf", "expected_keyword": "medical certificate"},
+  {"question": "How long is maternity leave?", "expected_source": "Leave_Policy.pdf", "expected_keyword": "26 weeks"},
+  {"question": "How many unused leave days can be carried forward?", "expected_source": "Leave_Policy.pdf", "expected_keyword": "carried forward"},
+  {"question": "How long do I have to use a compensatory off?", "expected_source": "Leave_Policy.pdf", "expected_keyword": "60 days"},
+  {"question": "What is the hotel limit per night in Tier 1 cities?", "expected_source": "Travel_Policy.pdf", "expected_keyword": "6,000"},
+  {"question": "Which class of flight can I book for international travel?", "expected_source": "Travel_Policy.pdf", "expected_keyword": "business class"},
+  {"question": "What is the daily meal allowance for domestic trips?", "expected_source": "Travel_Policy.pdf", "expected_keyword": "1,200"},
+  {"question": "How much is reimbursed per km for my own car?", "expected_source": "Travel_Policy.pdf", "expected_keyword": "12 per km"},
+  {"question": "How soon must I submit an expense claim?", "expected_source": "Reimbursement_Policy.pdf", "expected_keyword": "30 days"},
+  {"question": "How much can I claim monthly for mobile and internet?", "expected_source": "Reimbursement_Policy.pdf", "expected_keyword": "1,000 per month"},
+  {"question": "What is the yearly learning and development budget?", "expected_source": "Reimbursement_Policy.pdf", "expected_keyword": "25,000"},
+  {"question": "Which expenses are not reimbursable?", "expected_source": "Reimbursement_Policy.pdf", "expected_keyword": "Alcohol"},
+  {"question": "How many days per week must I work from the office?", "expected_source": "Work_From_Home_Policy.pdf", "expected_keyword": "3 days"},
+  {"question": "What are the core working hours?", "expected_source": "Work_From_Home_Policy.pdf", "expected_keyword": "11:00 AM"},
+  {"question": "Do I need to use a VPN when working from home?", "expected_source": "Work_From_Home_Policy.pdf", "expected_keyword": "VPN"}
+]
